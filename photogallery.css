@@ -1,0 +1,263 @@
+
+
+body, html {
+  height: 100%;
+  background-color: rgb(228, 228, 205) ;
+
+
+
+}
+
+#lb {
+	display : none;
+}
+#sl {
+	display : none;
+}
+
+.gallery {
+	margin : auto;
+	margin-left: 2.3rem;
+	/*margin-top : 10rem*/ 	
+	
+}
+
+.gallery img {
+	background-color: grey ;
+	transition: 2s;
+	padding:05px;
+	width:200px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	margin-right: 5rem;
+	/*margin-bottom: 3rem;*/
+	margin-top : 5rem;
+  	
+
+}
+
+.gallery img:hover {
+	filter : grayscale(500%);
+	transform: scale(1.8);
+
+}
+.signin {
+	width : 100%;
+	text-align: center ;
+	align-items: center ;
+	align-content: center ;
+	height: 100%;
+	/*background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Photography-Backgrounds.jpg");*/
+	background-image: url("https://www.gerardconneelyphotography.com/images/layerslider/LayerSlider-5-responsive-demo-slider/Camera-Equip.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10rem;
+
+
+}
+#signin-title {
+	margin : auto;
+	font-size: 30px;
+	color : white;
+	font-family: 'Zilla Slab', serif;
+
+}
+.card {
+	width :27%;
+	/*background-color : grey ; */
+	margin : auto ; 
+	border : 1px solid #333 ;
+	border-radius: 6px ;
+	background-color: grey ;
+	box-shadow: rgb(255,255,255) 0px 20px 30px -10px;
+}
+.userName label {
+	/*float : left;*/
+	margin-left: -10.1rem ;
+	color : white ;
+}
+.userName input {
+	margin-top : 0.6rem;
+	width : 15rem;
+	height : 2rem;
+	/*color : #333;*/
+	border-radius: 4px;
+}
+.userName input::placeholder {
+	color : #BEBEBE;
+}
+
+.password label {
+	margin-left: -10.1rem ;
+	color : white ;
+
+}
+.password input {
+	margin-top : 0.6rem;
+	margin-left: 1.5rem;
+	width : 15rem;
+	height : 2rem;
+	border-radius: 4px;
+}
+.password input::placeholder {
+	color : #BEBEBE;
+}
+.fa-eye {
+	color : white ;
+
+}
+
+         .btn-grad {background-image: linear-gradient(to right, #304352 0%, #d7d2cc  51%, #304352  100%)}
+         .btn-grad {
+            margin: auto;
+            margin-top: 2rem ;
+            margin-bottom: 1rem;
+            padding: 10px 30px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 05px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+/*.signout{background-image: linear-gradient(to right, #304352 0%, #d7d2cc  51%, #304352  100%)}
+         .signout {
+            margin: auto;
+            margin-top: 1rem ;
+            margin-bottom: 1rem;            
+            padding: 10px 25px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            width : 7%;
+            display: inline-block;
+            margin-left: 40rem;
+          }
+
+          .signout:hover {
+            background-position: right center;  
+            color: #fff;
+            text-decoration: none;
+          }
+*/
+
+		#signout1{
+			margin: auto;
+			color: black ;
+			margin-left: 5rem;		
+            margin-top: 1rem ;
+            margin-bottom: 1rem;
+		}
+		#signout2{
+			margin: auto;
+			color: black ;
+			margin-left: 80rem;			
+            margin-top: 1rem ;
+            margin-bottom: 1rem;
+		}
+          .transbox {
+
+
+          	
+          	margin: auto;
+          	margin-bottom: 3rem;
+          	font-family: 'Open Sans', sans-serif;
+  			font-family: 'Zen Dots', cursive;
+  			font-size: 40px;  			
+  			width : 50%;
+  			text-align: center ;
+  			background-color: beige;
+  			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  			position : fixed;
+
+
+  			border-radius: 18px ;
+  			
+          }
+
+          .image{
+          	display : inline-block;
+          	height: 10rem;
+
+          }
+          .image h2 {
+          	font-family: 'Open Sans', sans-serif;
+  			font-weight: bold ;
+          }
+        
+       
+          #next {
+          	display: inline-block;
+          	float: right;
+          }
+
+         #next {background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50  51%, #bdc3c7  100%)}
+         #next {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width : 200px;
+          }
+
+          #next:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }          
+          .cont {
+          	margin-top: 10rem;
+          }
+            #previous {
+          	display: inline-block;
+          	float: left;
+          }
+
+         #previous {background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50  51%, #bdc3c7  100%)}
+         #previous {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width : 200px;
+          }
+
+          #previous:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+
+
+
+
+
+
+
+          
+        
